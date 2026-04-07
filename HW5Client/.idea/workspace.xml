@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee4f0624-023a-4970-bd92-0e1fffdc880a" name="Changes" comment="" />
+    <list default="true" id="ee4f0624-023a-4970-bd92-0e1fffdc880a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/GuiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/GuiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5Server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5Server/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5Server/src/main/java/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5Server/src/main/java/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HW5Server/src/main/java/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/../HW5Server/src/main/java/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,25 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fei302&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fei302/CS342_HW5.git&quot;,
+    &quot;accountId&quot;: &quot;06ab15af-3a5e-4884-9624-468f4eec7f39&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -25,31 +51,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.GuiServer.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HLThreading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Quiz11.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.JavaFXGUIServer [clean,compile,exec:java].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Project3Client [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.Run.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Space/Spring2026CS342Code/MessagingBasicGUI/Project3Client/Project3Client&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GuiServer.executor": "Run",
+    "Application.HLThreading.executor": "Run",
+    "Application.Quiz11.executor": "Run",
+    "Maven.JavaFXGUIServer [clean,compile,exec:java].executor": "Run",
+    "Maven.Project3Client [clean].executor": "Run",
+    "Maven.Run.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Space/Spring2026CS342Code/MessagingBasicGUI/Project3Client/Project3Client",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java" />
@@ -151,6 +181,8 @@
       <workItem from="1775467462660" duration="35000" />
       <workItem from="1775467519712" duration="213000" />
       <workItem from="1775467883251" duration="87000" />
+      <workItem from="1775468832996" duration="7000" />
+      <workItem from="1775540576371" duration="2992000" />
     </task>
     <servers />
   </component>

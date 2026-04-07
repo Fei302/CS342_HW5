@@ -25,18 +25,18 @@ public class Client extends Thread{
 	public void run() {
 		
 		try {
-		socketClient= new Socket("127.0.0.1",5555);
-	    out = new ObjectOutputStream(socketClient.getOutputStream());
-	    in = new ObjectInputStream(socketClient.getInputStream());
-	    socketClient.setTcpNoDelay(true);
+			socketClient= new Socket("127.0.0.1",5555);
+			out = new ObjectOutputStream(socketClient.getOutputStream());
+			in = new ObjectInputStream(socketClient.getInputStream());
+			socketClient.setTcpNoDelay(true);
 		}
 		catch(Exception e) {}
 		
 		while(true) {
 			 
 			try {
-			Message message = (Message) in.readObject().toString();
-			callback.accept(message);
+//				Message message = (Message) in.readObject().toString();
+//				callback.accept(message);
 			}
 			catch(Exception e) {}
 		}

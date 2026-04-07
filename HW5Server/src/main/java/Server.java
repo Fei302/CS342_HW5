@@ -83,7 +83,7 @@ public class Server{
 				try {
 					in = new ObjectInputStream(connection.getInputStream());
 					out = new ObjectOutputStream(connection.getOutputStream());
-					connection.setTcpNoDelay(true);	
+					connection.setTcpNoDelay(true);
 				}
 				catch(Exception e) {
 					System.out.println("Streams not open");
