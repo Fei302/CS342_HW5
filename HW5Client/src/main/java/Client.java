@@ -35,8 +35,8 @@ public class Client extends Thread{
 		while(true) {
 			 
 			try {
-//				Message message = (Message) in.readObject().toString();
-//				callback.accept(message);
+				Message message = (Message) in.readObject();
+				callback.accept(message);
 			}
 			catch(Exception e) {}
 		}
