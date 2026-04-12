@@ -24,7 +24,7 @@ public class GuiServer extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		listItems = new ListView<>();
 
-		// Log activity to the GUI
+		// The server calls this callback to log activity to the GUI
 		serverConnection = new Server(data -> {
 			Platform.runLater(() -> {
 				listItems.getItems().add(data.toString());
