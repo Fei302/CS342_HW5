@@ -9,19 +9,14 @@ import java.util.function.Consumer;
 
 public class Client extends Thread{
 
-	
 	Socket socketClient;
-	
 	ObjectOutputStream out;
 	ObjectInputStream in;
-	
 	private Consumer<Serializable> callback;
-	
-	Client(Consumer<Serializable> call){
-	
+
+	Client(Consumer<Serializable> call) {
 		callback = call;
 	}
-	
 	public void run() {
 		
 		try {
@@ -43,7 +38,7 @@ public class Client extends Thread{
 	
     }
 	
-	public void send(String data) {
+	public void send(Message data) {
 		
 		try {
 			out.writeObject(data);
