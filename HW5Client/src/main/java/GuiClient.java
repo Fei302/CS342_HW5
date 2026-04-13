@@ -105,7 +105,7 @@ public class GuiClient extends Application {
 				}
 				recipientCombo.setValue("All");
 
-				// If we were waiting for registration confirmation, switch to main scene now
+				// If  waiting for registration confirmation, switch to main scene now
 				if (!registered && pendingUsername != null) {
 					myUsername = pendingUsername;
 					pendingUsername = null;
@@ -151,7 +151,7 @@ public class GuiClient extends Application {
 
 		VBox loginBox = new VBox(10, prompt, usernameField, connectButton, loginErrorLabel);
 		loginBox.setPadding(new Insets(20));
-		loginBox.setStyle("-fx-background-color: blue; -fx-font-family: 'serif';");
+		loginBox.setStyle("-fx-background-color: white; -fx-font-family: 'serif';");
 		return new Scene(loginBox, 400, 200);
 	}
 
@@ -193,7 +193,7 @@ public class GuiClient extends Application {
 		layout.setCenter(messageList);
 		layout.setRight(usersPanel);
 		layout.setBottom(inputRow);
-		layout.setStyle("-fx-background-color: blue; -fx-font-family: 'serif';");
+		layout.setStyle("-fx-background-color: white; -fx-font-family: 'serif';");
 		layout.setPadding(new Insets(10));
 
 		return new Scene(layout, 650, 420);

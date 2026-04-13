@@ -10,13 +10,10 @@ import java.util.function.Consumer;
 public class Server {
 
 	int count = 1;
-	ArrayList<ClientThread> clients = new ArrayList<>();
-
-	// Maps username -> their ClientThread so we can find them for direct messages
-	HashMap<String, ClientThread> usernames = new HashMap<>();
-
-	TheServer server;
-	private Consumer<Serializable> callback;
+	ArrayList<ClientThread> clients = new ArrayList<>(); // List of ClientThreads of which each handle their own client
+	HashMap<String, ClientThread> usernames = new HashMap<>();	// Maps username -> their ClientThread so we can find them for direct messages
+	TheServer server; // The main server that is listening for Clients and assigning them their own Client Thread
+	private Consumer<Serializable> callback; // Display of all messages
 
 	Server(Consumer<Serializable> call) {
 		callback = call;
@@ -40,6 +37,7 @@ public class Server {
 		broadcastMessage(msg);
 	}
 
+	// Start of TheServer class
 	public class TheServer extends Thread {
 		public void run() {
 			try (ServerSocket mysocket = new ServerSocket(5555)) {
@@ -56,7 +54,9 @@ public class Server {
 			}
 		}
 	}
+	// End of TheServer class
 
+	// Start of ClientThread class
 	class ClientThread extends Thread {
 
 		Socket connection;
@@ -139,4 +139,6 @@ public class Server {
 			}
 		}
 	}
+	// End of ClientThread class
+
 }
